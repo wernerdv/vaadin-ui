@@ -37,8 +37,8 @@ public class App {
 			Customer customer = repository.findById(1L).orElse(null);
 			log.info("Customer found with findOne(1L):");
 			log.info("--------------------------------");
-            assert customer != null;
-            log.info(customer.toString());
+			assert customer != null;
+			log.info(customer.toString());
 			log.info("");
 
 			// fetch customers by last name
